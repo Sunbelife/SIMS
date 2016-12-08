@@ -54,3 +54,4 @@ INSERT INTO People values(1,'江泽民',0,'32934232',21),</br>
 (26,'巴普洛夫',0,'765110',36),</br>
 (27,'弗洛伊德',0,'654110',39);</br>
 </br>
+And then, run the Main.java.
