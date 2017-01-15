@@ -11,15 +11,6 @@ public class TableData extends AbstractTableModel {
     ResultSet rs;
     ResultSetMetaData rsmd;
 
-    // isCellEditable
-    public int getSelectedRow() {
-        return SelectedRow;
-    }
-
-    public int getSelectedCol() {
-        return SelectedCol;
-    }
-
     int SelectedRow = 0;
     int SelectedCol = 0;
 
@@ -51,6 +42,9 @@ public class TableData extends AbstractTableModel {
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
+        if (rowIndex < 0) {
+            return "-1";
+        }
         try {
             rs.absolute(rowIndex + 1);
         } catch (SQLException e) {

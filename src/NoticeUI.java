@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 /**
  * Created by sun on 16/12/7.
  */
-public class Notice extends JDialog {
-    Notice(String title, String Message) {
-        JDialog Emptyerror = new JDialog();
+public class NoticeUI extends JDialog {
+    NoticeUI(String title, String Message) {
+        final JDialog Emptyerror = new JDialog();
         JLabel message_Lbl = new JLabel(Message);
-        message_Lbl.setBounds(90,20,200,100);
+        message_Lbl.setBounds(90,20,300,100);
         Emptyerror.setTitle(title);
         Emptyerror.setLayout(null);
         JButton Exit_Btn = new JButton("好的");

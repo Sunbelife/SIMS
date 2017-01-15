@@ -10,30 +10,32 @@ import java.sql.SQLException;
 /**
  * Created by sun on 16/12/7.
  */
-public class Search {
+public class SearchUI {
     JFrame Manage_Frm;
     JTextField Username_Fid,ID_Fid,Phone_Fid,Age_Fid,Type_Fid;
     JLabel Username_Lbl,ID_Lbl,Phone_Lbl,Age_Lbl,Type_Lbl;
     JPanel Search_Pal,Control_Pal;
     JScrollPane Data_Pal;
-    JButton Search_Btn,Del_Btn,Update_Btn,Change_Btn;
+    JButton Search_Btn,Del_Btn,Update_Btn,Change_Btn,Check_Btn;
     JTable data_Jtb;
     TableData model;
-
     int anchor = GridBagConstraints.CENTER;
     int fill = GridBagConstraints.BOTH;
     Insets insets = new Insets(0, 0, 0, 0);
 
-    Search() {
+    SearchUI() {
         Manage_Frm = new JFrame("信息管理");
         Manage_Frm.setSize(600,400);
         Manage_Frm.setLocationRelativeTo(null);
         Manage_Frm.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         Manage_Frm.setLayout(new GridBagLayout());
+
+        // 自动刷新
         Manage_Frm.addWindowFocusListener(new WindowFocusListener() {
             @Override
             public void windowGainedFocus(WindowEvent e) {
-                new SearcherListener().showResultTable();
+                SearcherListener Refresh = new SearcherListener();
+                Refresh.showResultTable();
             }
 
             @Override
@@ -54,13 +56,37 @@ public class Search {
         ID_Lbl = new JLabel("ID:");
         Phone_Lbl = new JLabel("电话:");
         Age_Lbl = new JLabel("年龄:");
-        Search_Btn = new JButton("查询");
+        Search_Btn = new JButton("刷新");
         Search_Btn.addActionListener(new SearcherListener());
         Control_Pal = new JPanel();
         Control_Pal.setLayout(new GridBagLayout());
         Del_Btn = new JButton("删除");
         Update_Btn = new JButton("插入");
         Change_Btn = new JButton("更改");
+        Check_Btn = new JButton("查看");
+        Check_Btn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 保存选择的数据
+                int Indexrow = data_Jtb.getSelectedRow();
+                if (Indexrow < 0) {
+                    return;
+                }
+                int id = Integer.parseInt(String.valueOf(data_Jtb.getValueAt(Indexrow, 0)));
+                String name = (String) data_Jtb.getValueAt(Indexrow, 1);
+                int type = Integer.parseInt(String.valueOf(data_Jtb.getValueAt(Indexrow, 2)));
+                String phone = (String) data_Jtb.getValueAt(Indexrow, 3);
+                int age = Integer.parseInt(String.valueOf(data_Jtb.getValueAt(Indexrow, 4)));
+                LoadData loadPic = new LoadData();
+                String sql = "SELECT PicPath FROM People where ID = " + id;
+                try {
+                    String PicPath = loadPic.LoadStringData(sql);
+                    new WatchUI(id,name,type,phone,age,PicPath);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
 
         Data_Pal = new JScrollPane();
         TableData data = null;
@@ -84,11 +110,17 @@ public class Search {
         Change_Btn.setEnabled(false);
         Del_Btn.setEnabled(false);
         Update_Btn.setEnabled(false);
+        Control_Pal.add(Check_Btn);
         Control_Pal.add(Change_Btn);
         Control_Pal.add(Del_Btn);
         Control_Pal.add(Search_Btn);
         Control_Pal.add(Update_Btn);
         Control_Pal.setVisible(true);
+
+        // gridx 左数第几列, gridy 左数第几行, gridwidth 有几列, gridheigth 有几行
+        // weightx 额外的水平空间, weighty 额外的垂直空间, anchor 放置组件的位置, fill 大于组件是否填充
+        // insets 与显示区域边缘的最小量,
+        // ipadx 最小宽度, ipady 最小垂直距离
 
         Manage_Frm.add(Search_Pal, new GridBagConstraints(0,1,1,1,100,100,anchor,fill,insets,0,0));
         Manage_Frm.add(Data_Pal, new GridBagConstraints(0,2,1,1,100,500,anchor,fill,insets,0,0));
@@ -96,10 +128,6 @@ public class Search {
         Manage_Frm.setVisible(true);
 
         new SearcherListener().showResultTable();
-    }
-
-    public static void main(String args[]) {
-        new Search();
     }
 
     class SearcherListener implements ActionListener {
@@ -138,8 +166,8 @@ public class Search {
             ResultSet rs = new LoadData().RefreshData(sql);
             try {
                 if (!rs.next() && isEmpty) {
-                    new InsertUI();
-                    new Notice("空的","数据表现在是空的,添加点东西吧!");
+                    new InsertUI("/Users/sun/Documents/StuSystem/src/images/PicNotFound.png");
+                    new NoticeUI("空的","数据表现在是空的,添加点东西吧!");
                 }
             } catch (SQLException e) {
                 e.printStackTrace();

@@ -8,7 +8,7 @@ import java.sql.ResultSet;
  */
 public class LoadData {
     // 用来加载数据库中指定 String 值,减少资源占用。
-    public String LoadStringData(String sql,String data, String request) throws Exception {
+    public String MatchStringData(String sql,String data, String request) throws Exception {
         String result = "false";
         DBUtil dbUtil = new DBUtil();
         Connection conn = dbUtil.getConn();
@@ -19,6 +19,20 @@ public class LoadData {
             if (resultSet.getString(request).equals(data)) {
                 result = "true";
             }
+        }
+        dbUtil.close(resultSet,pstate,conn);
+        return result;
+    }
+
+    public String LoadStringData(String sql) throws Exception {
+        String result = null;
+        DBUtil dbUtil = new DBUtil();
+        Connection conn = dbUtil.getConn();
+        PreparedStatement pstate;
+        pstate = dbUtil.getPstmt(conn,sql);
+        ResultSet resultSet = dbUtil.getRs(pstate);
+        while(resultSet.next()) {
+            result = resultSet.getString(1);
         }
         dbUtil.close(resultSet,pstate,conn);
         return result;
@@ -58,6 +72,5 @@ public class LoadData {
         int Resultflag = dbUtil.updateRs(pstate);
         return Resultflag;
     }
-
 }
 

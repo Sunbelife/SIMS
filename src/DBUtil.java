@@ -20,7 +20,7 @@ public class DBUtil {//构造方法
     }
 
     public static Connection getConn(){
-        Connection conn =null;
+        Connection conn = null;
         try {
             conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/SIMS?useSSL=false&characterEncoding=utf8","root","haha0308");//url+用户+密码
         } catch (SQLException e) {
@@ -49,10 +49,9 @@ public class DBUtil {//构造方法
         return rs;
     }
     public static int updateRs(PreparedStatement pstmt){
-        int Resultflag = 0;
-        boolean isSuccessed = true;
+        int Resultflag;
         try {
-            Resultflag = pstmt.executeUpdate();
+            pstmt.executeUpdate();
             Resultflag = 1;
         } catch (SQLException e) {
             Resultflag = 0;
@@ -62,31 +61,20 @@ public class DBUtil {//构造方法
     }
 
     public static void close(ResultSet rs, Statement stmt, Connection conn) {
-        if(rs != null){
-            try {
-                rs.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            rs = null;
+        try {
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-        if(stmt != null){
-            try {
-                stmt.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            stmt=null;
+        try {
+            stmt.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-
-        if(conn!= null){
-            try {
-                conn.close();
-            } catch (SQLException e) {
-
-                e.printStackTrace();
-            }
-            conn=null;
+        try {
+            conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }
