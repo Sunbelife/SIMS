@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="150e061e-8600-47ea-b657-fcf60c6d5d54" name="Default" comment="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/info/login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/info/manage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/info/watch.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StuSystem.iml" afterPath="$PROJECT_DIR$/.idea/modules/StuSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="150e061e-8600-47ea-b657-fcf60c6d5d54" name="Default" comment="" />
     <list id="5c416b58-4810-4395-a12e-fa7b46038ad0" name="Rejected commit: Default" comment="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI." />
     <ignored path="StuSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -936,7 +929,7 @@
       <workItem from="1484576553387" duration="1186000" />
       <workItem from="1484734410593" duration="781000" />
       <workItem from="1484737909125" duration="934000" />
-      <workItem from="1484739769432" duration="453000" />
+      <workItem from="1484739769432" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI.">
       <created>1482794091140</created>
@@ -959,11 +952,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484738597181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modify files.">
+      <created>1484740379932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484740379932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58607000" />
+    <option name="totallyTimeSpent" value="58697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,7 +1021,8 @@
     <MESSAGE value="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI." />
     <MESSAGE value="1、Now you can Add/Change one's picture.&#10;2、Add FileChooser Class&#10;3、Add ResigsterUI" />
     <MESSAGE value="Add res, you can download the Database from res folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add res, you can download the Database from res folder." />
+    <MESSAGE value="Modify files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
