@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150e061e-8600-47ea-b657-fcf60c6d5d54" name="Default" comment="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/manage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/watch.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StuSystem.iml" afterPath="$PROJECT_DIR$/.idea/modules/StuSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5c416b58-4810-4395-a12e-fa7b46038ad0" name="Rejected commit: Default" comment="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI." />
     <ignored path="StuSystem.iws" />
@@ -46,7 +49,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +61,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#7317#7318#0" expanded="false" />
+                <element signature="e#7358#7359#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +75,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#662#663#0" expanded="false" />
+                <element signature="e#714#715#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +87,7 @@
       <file leaf-file-name="EditUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EditUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="30">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,9 +99,15 @@
       <file leaf-file-name="InsertUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InsertUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1490">
+            <state relative-caret-position="330">
               <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1702#1703#0" expanded="false" />
+                <element signature="e#1754#1755#0" expanded="false" />
+                <element signature="e#3464#3465#0" expanded="false" />
+                <element signature="e#3528#3529#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,9 +115,13 @@
       <file leaf-file-name="ResigsterUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ResigsterUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1701">
+            <state relative-caret-position="390">
               <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3014#3015#0" expanded="false" />
+                <element signature="e#3047#3048#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,7 +151,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#658#659#0" expanded="false" />
+                <element signature="e#701#702#0" expanded="false" />
+                <element signature="e#1023#1024#0" expanded="false" />
+                <element signature="e#1050#1051#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +167,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1938#1939#0" expanded="false" />
+                <element signature="e#1989#1990#0" expanded="false" />
+                <element signature="e#3225#3226#0" expanded="false" />
+                <element signature="e#3289#3290#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +193,13 @@
         <option value="Sunbelife &lt;Sunbelife@foxmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -351,7 +392,6 @@
         <subPane />
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,40 +410,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StuSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StuSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StuSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StuSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -925,6 +934,9 @@
       <workItem from="1484484585411" duration="517000" />
       <workItem from="1484485399963" duration="485000" />
       <workItem from="1484576553387" duration="1186000" />
+      <workItem from="1484734410593" duration="781000" />
+      <workItem from="1484737909125" duration="934000" />
+      <workItem from="1484739769432" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI.">
       <created>1482794091140</created>
@@ -940,11 +952,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484485775085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add res, you can download the Database from res folder.">
+      <created>1484738597181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484738597181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56439000" />
+    <option name="totallyTimeSpent" value="58607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,18 +976,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670453" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -978,12 +995,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1001,7 +1020,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、Add Person's Picture.&#10;2、Remove Welcome Interface.&#10;3、Add WatchUI." />
     <MESSAGE value="1、Now you can Add/Change one's picture.&#10;2、Add FileChooser Class&#10;3、Add ResigsterUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、Now you can Add/Change one's picture.&#10;2、Add FileChooser Class&#10;3、Add ResigsterUI" />
+    <MESSAGE value="Add res, you can download the Database from res folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add res, you can download the Database from res folder." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1024,7 +1044,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="108" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="108" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,7 +1054,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
           <caret line="162" column="92" selection-start-line="162" selection-start-column="92" selection-end-line="162" selection-end-column="92" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#7317#7318#0" expanded="false" />
+            <element signature="e#7358#7359#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,7 +1066,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1938#1939#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#3225#3226#0" expanded="false" />
+            <element signature="e#3289#3290#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,7 +1080,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#3464#3465#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +1104,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,11 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3353#3354#0" expanded="false" />
-            <element signature="e#3399#3400#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +1148,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="36" column="86" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,7 +1158,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,7 +1170,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#3464#3465#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,11 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="91" column="35" selection-start-line="18" selection-start-column="8" selection-end-line="91" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3353#3354#0" expanded="false" />
-            <element signature="e#3399#3400#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,7 +1207,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="36" column="86" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,7 +1217,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,7 +1229,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#3464#3465#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,11 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="91" column="35" selection-start-line="18" selection-start-column="8" selection-end-line="91" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3353#3354#0" expanded="false" />
-            <element signature="e#3399#3400#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,10 +1329,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NoticeUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#3353#3354#0" expanded="false" />
-            <element signature="e#3399#3400#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext/jfxrt.jar!/javafx/geometry/HPos.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#7317#7318#0" expanded="false" />
+            <element signature="e#7358#7359#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManageUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EditUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#3464#3465#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ResigsterUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3014#3015#0" expanded="false" />
+            <element signature="e#3047#3048#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1293,62 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NoticeUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ResigsterUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext/jfxrt.jar!/javafx/geometry/HPos.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ManageUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WatchUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1357,20 +1425,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InsertUI.java">
+    <entry file="file://$PROJECT_DIR$/src/FileChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1490">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EditUI.java">
+    <entry file="file://$PROJECT_DIR$/src/WatchUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1938#1939#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#3225#3226#0" expanded="false" />
+            <element signature="e#3289#3290#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1432,6 +1510,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
